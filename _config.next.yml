@@ -105,6 +105,7 @@ menu:
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
   集合论和图论: /集合论和图论/ ||fa fa-heartbeat
+  数学分析: /数学分析/ || fa fa-heartbeat
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
