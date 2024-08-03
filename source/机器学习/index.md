@@ -26,7 +26,7 @@ date: 2024-08-03 00:12:10
 likelihood:似然率，其实算是不好理解的，但是[这篇文章](https://blog.csdn.net/jh1137921986/article/details/89000994)讲的好
 
 ## Supervise learning：监督学习
-朴素贝叶斯
+### 朴素贝叶斯
 
     核心理念:朴素贝叶斯分类器是基于贝叶斯定理和特征独立假设的简单而强大的概率分类器。贝叶斯定理给出了后验概率 𝑃(𝑦∣𝑋) 的计算公式，其中 X 是特征的合，y 是类别。不懂的请自行Google，有太多资源讲的比我好了。
     自我感觉难点在于
@@ -54,9 +54,24 @@ likelihood:似然率，其实算是不好理解的，但是[这篇文章](https:
 
 
 
+### Performance
+确定模型表现的一些方法：以检测信息是否spam为例。
+
+    准确率(Accuracy):(TP+TN)/Total 但是并不总是一个好的指标。
+
+    Sensitivity(recall): TP/(TP+FN) 可以理解为the model'ablity to correctly classfiy spam message.
+
+    Specificity: TN/(TN+FP) represnts the classifier's ability to correctly classify legitiamte message. 
+
+    更高Specificity就会拥有更少的假阳，更高的Sensitivity就会拥有更少的假阴，根据不同的情况会想要不一样的平衡。并不能一概而论。
+
+    Precision: TP/(TP+FP),out of everytime, the model classified something as spam, how many of them actually were a spam. 越高越好
+
+    F1-Score: 2*(Sensitivity*Precision)/(Sensitivity+Precission), The hormonic mean of the sensitivety and the precision.
+
+关于 训练集，验证集，测试集请看[这里](https://blog.csdn.net/Swartz2015/article/details/78311592)
 
 
-performance
 
 朴素贝叶斯优化
 
