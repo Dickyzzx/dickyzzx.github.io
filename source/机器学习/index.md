@@ -75,6 +75,16 @@ likelihood:似然率，其实算是不好理解的，但是[这篇文章](https:
 
 朴素贝叶斯优化
 
+    Mutinomial Distribution : A distribution which models the probablity of counts of particular outcomes. 具体请搜索朴素贝叶斯和Mutinomial Distribution的例子。 除了多项式分布，还有二次项分布，高斯分布，等等建议都去了解一遍。
+
+    TF-IDF:计算TF和IDF的值后相乘，具体如何计算请自行Google。具体来说，tf-idf是一种统计方法，用以评估一字词对于一个文件集或一个语料库中的其中一份文件的重要程度。 字词的重要性随着它在文件中出现的次数成正比增加，但同时会随着它在语料库中出现的频率成反比下降。比如每个文章都有travel这个词，那这个词的意义就不大了。
+    
+    n-gram:详情访问https://blog.csdn.net/weixin_44966641/article/details/127479910
+
+    
+
+
+
 k-临近算法
 
 决策树
