@@ -87,7 +87,28 @@ likelihood:似然率，其实算是不好理解的，但是[这篇文章](https:
 
 k-临近算法
 
+各种距离的计算公式，特征规范，特征标准等
+需要注意的是这个[kd树](https://blog.csdn.net/weixin_39910711/article/details/114447104)
+
+
+
 决策树
+    思考如何处理:missing value，multiple lable，regression。
+    Classification and Regreesion Tree(CART):
+        is an algorithm for constructing an approximate optimal decision tree for given example.
+    
+    Split point:
+        A paire of feture and fetures value which is assigned to a node in a decision tree.
+        This split point will determine which examples will go left and which examples go right based on the feature and feature value.
+    
+    Gini Impurity:
+        Used as a way to determine the best split point for a given node in classification tree. It's based on the probability of incorrectly classifying an item based on all of the items in the node. 越低越好。 如果是用regression则是用mse测量。
+
+    Surrogate Split:
+        A suboptimal split point reserved for examples which are missing the optimal split point feature.
+    
+关于Boosting和Bagging看[这里](https://easyaitech.medium.com/%E4%B8%80%E6%96%87%E7%9C%8B%E6%87%82%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%A7%A3-bagging-boosting-%E4%BB%A5%E5%8F%8A%E4%BB%96%E4%BB%AC%E7%9A%84-4-%E7%82%B9%E5%8C%BA%E5%88%AB-6e3c72df05b8)
+
 
 线性回国
 
