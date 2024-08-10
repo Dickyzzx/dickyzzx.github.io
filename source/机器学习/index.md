@@ -110,8 +110,26 @@ k-临近算法
 关于Boosting和Bagging看[这里](https://easyaitech.medium.com/%E4%B8%80%E6%96%87%E7%9C%8B%E6%87%82%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%A7%A3-bagging-boosting-%E4%BB%A5%E5%8F%8A%E4%BB%96%E4%BB%AC%E7%9A%84-4-%E7%82%B9%E5%8C%BA%E5%88%AB-6e3c72df05b8)
 
 
-线性回国
+线性回归
 
-逻辑规划
+    Variance Inflation Factor
+        A measure of multicollinearity in a regreesion model.
+
+    Feature Interaction
+        Features that are multiplied by on another in order to express relationships that can't be represnted by adding the independent variable terms together.
+
+
+逻辑回归
+
+通俗理解，概率分布函数和概率密度函数：[链接一](https://cloud.tencent.com/developer/article/1514756)
+
+在连续形变量中：
+
+    概率分布函数(CDF)指的是累积概率，如某个人的身高小于或等于某个值的累积概率
+    概率密度函数(PDF)指的是某个人的身高恰好在某个值附近的“可能性”。
+    
+    Softmax
+        A sigmoid which is generalized to more than 2 classes to be predicted against.
+
 
 支持向量机
