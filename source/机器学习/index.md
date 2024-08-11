@@ -133,3 +133,11 @@ k-临近算法
 
 
 支持向量机
+
+## 非监督学习
+
+### kmeans
+
+k-means算法详解及实现[here](https://blog.csdn.net/ft_sunshine/article/details/105374906)
+
+k-means到变体还蛮多的，可以根据需求自己上网查找。
