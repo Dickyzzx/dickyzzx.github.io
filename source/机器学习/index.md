@@ -9,6 +9,8 @@ date: 2024-08-03 00:12:10
 ## 机器学习相关术语
 这里会随机添加想起来或遇到的术语，不需要仔细查看，但是用作概念复习是很好的办法。
 
+[超平面详解](https://blog.csdn.net/dengheCSDN/article/details/77313758)
+
     Model: An approximation of relationship between an input and output.
 
     Laplace Smoothing: A type of additive smoohting which mitigates the chance of encountering zero probabilities within the Naive Bayes classifier.
@@ -141,3 +143,15 @@ k-临近算法
 k-means算法详解及实现[here](https://blog.csdn.net/ft_sunshine/article/details/105374906)
 
 k-means到变体还蛮多的，可以根据需求自己上网查找。
+
+### SVD
+
+[如何通俗的理解特征值和特征向量（马同学）](https://www.youtube.com/watch?v=M5_2L4Ax-Pc)
+
+### 神经网络
+
+[神经网络的目标函数一般怎么设置](https://wenku.csdn.net/answer/410aa2a5fda6439286dd9bb506b0ffca#:~:text=%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%9A%84%E7%9B%AE%E6%A0%87%E5%87%BD%E6%95%B0%EF%BC%88%E4%B9%9F%E5%8F%AB%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0%EF%BC%89%E7%9A%84,%E9%80%89%E6%8B%A9%E5%90%88%E9%80%82%E7%9A%84%E7%9B%AE%E6%A0%87%E5%87%BD%E6%95%B0%E3%80%82)
+
+[为什么用交叉熵](https://www.cnblogs.com/charlesblc/p/16104660.html)
+
+[理解神经网络中的目标函数](https://www.jiqizhixin.com/articles/2017-12-11-5)
