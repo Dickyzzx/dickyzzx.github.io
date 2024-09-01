@@ -46,6 +46,7 @@ A = $
 \end{pmatrix}$ 这个是3 $\times$ 2的矩阵，将$V_1$中的二维向量映射到$V_2$中的三位向量。 \
 设 $x = \begin{pmatrix} 1 \\ 2 \end{pmatrix}$
 
+测试
 
 
 
