@@ -44,6 +44,11 @@ jobs:
           node-version: "18"
       - name: Install Dependencies
         run: npm install
+
+      # Add Pandoc installation step
+      - name: Install Pandoc
+        run: sudo apt-get install -y pandoc
+
       - name: Build with Hexo
         run: npx hexo g
       - name: Upload artifact
