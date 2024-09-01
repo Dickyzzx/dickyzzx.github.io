@@ -107,6 +107,7 @@ menu:
   集合论和图论: /集合论和图论/ ||fa fa-heartbeat
   数学分析: /数学分析/ || fa fa-heartbeat
   机器学习: /机器学习/ || fa fa-heartbeat
+  矩阵分析: /矩阵分析/ || fa fa-heartbeat
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
