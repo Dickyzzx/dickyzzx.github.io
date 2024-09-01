@@ -23,7 +23,8 @@ T$e_2$ = $a_{12}f_1+a_{22}f_2+\dots+a_{m2}f_m$ \
 $\dots$ \
 T$e_n$ = $a_{1n}f_1+a_{2n}f_2+\dots+a_{mn}f_m$ \
  \
-然后就可以得到 A= $
+然后就可以得到 A= 
+$
 \begin{pmatrix}
 a_{11} & a_{12} & \dots & a_{1n} \\
 a_{21} & a_{22} & \dots & a_{2n} \\
