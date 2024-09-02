@@ -58,8 +58,49 @@ T(x) =$\begin{pmatrix}
 2 & -1 \\
 1 & 3 \\
 -1 & 4
-\end{pmatrix}$$\cdot$$\begin{pmatrix} 3 \\4 \end{pmatrix}$ =$\begin{pmatrix} 2 \\15 \\ 13 \end{pmatrix}$
- 
+\end{pmatrix}$$\cdot$$\begin{pmatrix} 3 \\4 \end{pmatrix}$ =$\begin{pmatrix} 2 \\15 \\ 13 \end{pmatrix}$ 
+
+(1)                
+T:$V_1 -> V_2$ \
+$e_i -> f_j$: A \
+$e_i' -> f_j$: B \
+A 和 B都表示T的线性变换，且 A=BX where $X:e_i \overset{I_{v1}}{\longrightarrow} e_i'$ 
+
+(2) \
+$e_i -> f_j$: A \
+$e_i' -> f_j'$: B \
+A = YB where Y:$f_j'->f_j$ \
+(3) \
+$e_i -> f_j$: A \
+$e_i' -> f_j'$: B \
+$X:e_i \overset{I_{v1}}{\longrightarrow} e_i'$  \
+$Y:f_j' -> f_j$ \
+A = YBX \
+(4) \
+$V=V_1=V2$,dim(V)=n \
+T:V->V \
+A=B where $A:e_i->e_i,B:e_i'->e_i'$\
+ 所谓的相似矩阵就是 A = $P^{-1}BP$,其中$A:e_i -> e_i$, $P:e_i - >e_i',B:e_i'->e_i',P^{-1}:e_i'->e_i$ 在概念上也就是同样的线形变换，唯一的不同只是basis的不同。
+
+ 如果我们不但考虑向量空间，还考虑内积的话就可以讨论垂直情况。 \
+ $V_1$ $V_2$ \
+ $e_i$ $f_j$  o.n.basis \
+ (5)对应(1) A = BU (U 是 n by n的unitary 矩阵) \
+ (6)对应(2) A = VB (V 是 m by m的unitary 矩阵) \
+ (7)对应(3) 前后各有不同组的basis A = VBU \
+ (8)对应(4) 同样的bsis，同样的内积空间，有两组basis  A=$U^*$BU,此时我们说A,B是 unitray equivalent \
+
+ Problem:
+
+    (a)classification of matrix
+    (b)canonical form(标准式)
+    对应(1)的标注式 ： reduce column echelon form
+    对应(2)的标准式 ： reduce row echelon form
+    对应(3)的标准式 ： 是变成一种对角线1和0的矩阵？
+    对应(4)的标准式 ： Jordan form
+    对应(7)的标准式 ： singular form
+
+
 
 
 
